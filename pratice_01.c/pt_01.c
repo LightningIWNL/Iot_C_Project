@@ -1,19 +1,23 @@
-// โจทย์ข้อที่ 1
-#include "stdio.h"
-#include "conio.h"
-
-#define PA printf("======================================================\n");
+// โจทย์ข้อที่ 1 
+#include <stdio.h>
+#include <conio.h>
+#define PA printf("+++++++++++++++++++++++++\n");
 void main (){
-    float widths,longs,hights,gallon;
+
+    float widths,longs,higths,color_for_use;
     PA
-    printf("Input Width:");
-    scanf("%f", &widths);
-    printf("Input Long:");
-    scanf("%f", &longs);
-    printf("Input Hight:");
-    scanf("%f", &hights);
-    gallon = widths=longs=hights/3;
-    printf("Color for use is:%.2f\n",gallon);
+    printf("     Program  Color\n");
     PA
-    getch();
+    printf("Enter widths :");
+    scanf("%f",&widths);
+    printf("Enter longs :");
+    scanf("%f",&longs);
+    printf("Enter higths :");
+    scanf("%f",&higths);
+    PA
+    color_for_use = widths+longs+higths;
+    color_for_use = color_for_use/3;
+    printf("Color for use is  :%.2fGallon",color_for_use);
+
+    
 }
