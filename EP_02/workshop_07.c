@@ -4,7 +4,7 @@
 #define PA printf("++++++++++++++++++++++++++++++++++++++++++++\n");
 
 void main(){
-    float widths, longs, area_square, bases,highs, are_triangle;
+    float widths, longs, area_square, bases,highs, area_triangle;
     PA
     printf("Program Area Shapes\n");
     PA
@@ -19,8 +19,8 @@ void main(){
     printf("Input Highs");
     scanf("%f",&highs);
     printf("--------------------------------------------------\n");
-    are_triangle = bases = highs / 2;
-    printf("Triangle Area : %.2f\n", are_triangle);
+    area_triangle = bases = highs / 2;
+    printf("Triangle Area : %.2f\n", area_triangle);
     PA
 
 
